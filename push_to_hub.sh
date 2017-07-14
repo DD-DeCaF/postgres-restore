@@ -2,7 +2,7 @@
 
 set -ev
 
-REPO="dddecaf/postgres-backup"
+REPO="dddecaf/postgres-restore"
 GIT_MASTER_HEAD_SHA=$(git rev-parse --short=12 --verify HEAD)
 BRANCH=${TRAVIS_BRANCH:=$(git symbolic-ref --short HEAD)}
 
